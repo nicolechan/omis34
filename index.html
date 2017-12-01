@@ -1,0 +1,116 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+<head>
+	<title>Photo Studio</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    
+    <!-- fonts -->
+    <!-- body font --> <link href="https://fonts.googleapis.com/css?family=Crimson+Text:400,400i,600,700" rel="stylesheet">
+    <!-- header font --> <link href="https://fonts.googleapis.com/css?family=Spectral+SC" rel="stylesheet">
+    
+</head>
+
+<body>
+	<div id="container">
+    
+    	<div id="sidebar">
+        	<h1><a href="">photography studio</a></h1>
+            <ul id="navigation">
+            	<a href="/index.html"><li>home</li></a>
+                <a href="/appointment.html"><li>make an appointment</li></a>
+                <a href="#pricing"><li>pricing</li></a>
+                <a href="http://nicolejchan.co.nr" target="_blank"><li>portfolio</li></a>
+                <a href="mailto:nchan@scu.edu"><li><img src="http://icons.iconarchive.com/icons/paomedia/small-n-flat/32/envelope-icon.png"></li></a>
+            </ul>
+        </div>
+        
+        <div id="main">
+        	<div id="home">
+            	<img class="tile" src="portrait.jpg" id="portrait" onclick="changePortrait()">
+                	<script>
+						function changePortrait() {
+						var image=document.getElementById('portrait');
+						if (image.src.match("portrait.jpg")) {
+							image.src="portrait_title.jpg";
+						} else {
+							image.src="portrait.jpg";
+							}
+						}
+					</script>
+                <img class="tile" src="landscape.jpg" id="landscape" onclick="changeLandscape()">
+                	<script>
+						function changeLandscape() {
+						var image=document.getElementById('landscape');
+						if (image.src.match("landscape.jpg")) {
+							image.src="landscape_title.jpg";
+						} else {
+							image.src="landscape.jpg";
+							}
+						}
+					</script>
+                <img class="tile" src="travel.jpg" id="travel" onclick="changeTravel()">
+                	<script>
+						function changeTravel() {
+						var image=document.getElementById('travel');
+						if (image.src.match("travel.jpg")) {
+							image.src="travel_title.jpg";
+						} else {
+							image.src="travel.jpg";
+							}
+						}
+					</script>
+                <img class="tile" src="studio.jpg" id="studio" onclick="changeStudio()">
+                	<script>
+						function changeStudio() {
+						var image=document.getElementById('studio');
+						if (image.src.match("studio.jpg")) {
+							image.src="studio_title.jpg";
+						} else {
+							image.src="studio.jpg";
+							}
+						}
+					</script>
+                <p><center><em>click on a photo to learn more</em></center></p>
+                <h2><center>Photography Studio</center></h2>
+                <p>Welcome to our photography studio! We offer quality studio portraits with qualified photographers and dazzling landscape photos. To make a studio appointment with our photographers, click on the "Make an Appointment" link to the left and fill out the form. To purchase prints, see our portfolio.</p>
+           	</div>
+            <div class="page" id="pricing">
+            	<hr color="#CCC">
+            	<h2><center>Photo Packages</center></h2>
+                <table id="prices" width="100%" cellpadding="10">
+                	<tr id="headerrow">
+                    	<td>Package</td>
+                        <td>Basic</td>
+                        <td>Premium</td>
+                    </tr>
+                    <tr>
+                    	<td>On-Site Portrait</td>
+                        <td>$75</td>
+                        <td>$125</td>
+                    </tr>
+                    <tr>
+                    	<td>Studio Portrait</td>
+                        <td>$100</td>
+                        <td>$150</td>
+                    </tr>
+                    <tr>
+                    	<td>Landscape</td>
+                        <td>$50</td>
+                        <td>$75</td>
+                    </tr>
+                    <tr>
+                    	<td>Travel</td>
+                        <td>$75</td>
+                        <td>$100</td>
+                    </tr>
+                </table>
+                <p id="hidetable"><a href="#home"><em>hide pricing table</em></a></p>
+            </div>
+        </div>
+        
+        <!-- color palette -  blue: #002C5E mint: #A7DBD8 -->
+    
+    </div>
+</body>
+
+</html>
