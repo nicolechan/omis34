@@ -1,0 +1,74 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"> 
+<head>
+	<title>Photo Studio</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    
+    <!-- fonts -->
+    <!-- body font --> <link href="https://fonts.googleapis.com/css?family=Crimson+Text:400,400i,600,700" rel="stylesheet">
+    <!-- header font --> <link href="https://fonts.googleapis.com/css?family=Spectral+SC" rel="stylesheet">
+    
+</head>
+
+<body>
+	<div id="container">
+    
+    	<div id="sidebar">
+        	<h1><a href="">photography studio</a></h1>
+            <ul id="navigation">
+            	<a href="/index.html"><li>home</li></a>
+                <a href=""><li>make an appointment</li></a>
+                <a href="/index.html#pricing"><li>pricing</li></a>
+                <a href="http://nicolejchan.co.nr" target="_blank"><li>portfolio</li></a>
+                <a href="mailto:nchan@scu.edu"><li><img src="http://icons.iconarchive.com/icons/paomedia/small-n-flat/32/envelope-icon.png"></li></a>
+            </ul>
+        </div>
+        
+        <div id="main">
+        	<h2><center>Make an Appointment</center></h2>
+        	<form action="mailto:nchan@scu.edu" method="post" enctype="text/plain">
+            <table class="appointment">
+            	<tr><td><h3>Personal Details</h3></td></tr>
+            	<tr><td>First Name</td><td><input type="text" name="firstname"></td></tr>
+                <tr><td>Last Name</td><td><input type="text" name="lastname"></td></tr>
+                <tr><td><h3>Appointment Details</h3></td></tr>
+                <tr><td>Appointment Type</td><td>
+                	<select name="type">
+                    	<option value="studio">Studio Portrait</option>
+                        <option value="onsite">On-Site Portrait</option>
+                  	</select></td></tr>
+              	<tr><td>Appointment Date</td><td><input type="text" name="date"></td></tr>
+                <tr><td>Appointment Time</td><td>
+                	<select name="time">
+                    	<option value="1">9:00am</option>
+                        <option value="2">10:00am</option>
+                        <option value="3">11:00am</option>
+                        <option value="4">12:00pm</option>
+                        <option value="5">1:00pm</option>
+                        <option value="6">2:00pm</option>
+                        <option value="7">3:00pm</option>
+                        <option value="8">4:00pm</option>
+                        <option value="9">5:00pm</option>
+                        <option value="10">Other (specify below)</option>
+                   	</select><br><input type="text" value="custom time..."></td></tr>
+                    <tr><td>Preferred Photographer</td><td><input type="text" name="photographer"></td></tr>
+                    <tr><td><h3>Payment</h3></td></tr>
+                    <tr><td>Name on Card</td><td><input type="text" name="cardname"></td></tr>
+                    <tr><td>Credit Card Number</td><td><input type="password" name="card"></td></tr>
+                    <tr><td>Address</td><td><input type="text" name="address"></td></tr>
+                    <tr><td>City</td><td><input type="text" name="city"></td></tr>
+                    <tr><td>State</td><td><input type="text" name="state"></td></tr>
+                    <tr><td>Zip Code</td><td><input type="text" name="zip"></td></tr>
+                    <tr><td><h3>Comments</h3></td></tr>
+                    <tr><td>Additional Comments</td><td><input type="textarea" name="comment" value="Your Comment" size="100" /></td></tr>
+       		</table>
+            <p><input type="submit" value="Submit" />&nbsp;&nbsp;<input type="reset" value="Reset" /></p>
+            </form>
+        </div>
+        
+        <!-- color palette -  blue: #002C5E mint: #A7DBD8 -->
+    
+    </div>
+</body>
+
+</html>
