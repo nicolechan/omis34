@@ -10,49 +10,6 @@ body {
 	margin:auto;
 }
 
-form input[type=text],input[type=password] {
-	width:590px;
-	padding:10px;
-	font-size:12pt;
-	font-family:'Crimson Text',serif;
-}
-
-form input[type=text]:focus,input[type=password]:focus {
-	border:3px solid #002C5E;
-	outline:none;
-	background-color:#A7DBD8;
-}
-
-form input[type=textarea] {
-	width:590px;
-	height:100px;
-	padding:10px;
-	font-size:12pt;
-	font-family:'Crimson Text',serif;
-	vertical-align:top;
-}
-
-form input[type=textarea]:focus {
-	border:3px solid #002C5E;
-	outline:none;
-	background-color:#A7DBD8;
-}
-
-form input[type=submit],input[type=reset] {
-	padding:15px;
-	background-color:#002C5E;
-	color:#FFF;
-	font-family:'Crimson Text',serif;
-	font-size:16pt;
-}
-
-form input[type=submit]:focus,input[type=reset]:focus {
-	background-color:#A7DBD8;
-	color:#000;
-	outline:none;
-	border:3px solid #002C5E;
-}
-
 #hidetable {
 	text-align:center;
 }
@@ -108,17 +65,6 @@ img.tile:hover {
 
 .page#home {
 	display:block;
-}
-
-select {
-	font-size:12pt;
-	font-family:'Crimson Text',serif;
-	width:100%;
-}
-
-select:focus {
-	border:3px solid #002C5E;
-	outline:none;
 }
 
 #sidebar {
