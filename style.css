@@ -1,0 +1,172 @@
+body {
+	background-color:#CCC;
+	font-family:'Crimson Text','Avenir Next',sans-serif;
+	font-size:14pt;
+}
+
+#container {
+	background-color:#FFF;
+	width:1200px;
+	margin:auto;
+}
+
+form input[type=text],input[type=password] {
+	width:590px;
+	padding:10px;
+	font-size:12pt;
+	font-family:'Crimson Text',serif;
+}
+
+form input[type=text]:focus,input[type=password]:focus {
+	border:3px solid #002C5E;
+	outline:none;
+	background-color:#A7DBD8;
+}
+
+form input[type=textarea] {
+	width:590px;
+	height:100px;
+	padding:10px;
+	font-size:12pt;
+	font-family:'Crimson Text',serif;
+	vertical-align:top;
+}
+
+form input[type=textarea]:focus {
+	border:3px solid #002C5E;
+	outline:none;
+	background-color:#A7DBD8;
+}
+
+form input[type=submit],input[type=reset] {
+	padding:15px;
+	background-color:#002C5E;
+	color:#FFF;
+	font-family:'Crimson Text',serif;
+	font-size:16pt;
+}
+
+form input[type=submit]:focus,input[type=reset]:focus {
+	background-color:#A7DBD8;
+	color:#000;
+	outline:none;
+	border:3px solid #002C5E;
+}
+
+#hidetable {
+	text-align:center;
+}
+
+#hidetable a {
+	color:#000;
+}
+
+h1 {
+	font-family:'Spectral SC',serif;
+	text-align:center;
+	font-size:24pt;
+}
+
+h1 a {
+	color:#000;
+	text-decoration:none;
+}
+
+h2 {
+	font-family:'Spectral SC',serif;
+}
+
+h3 {
+	font-size:14pt;
+}
+
+img.tile {
+	float:left;
+	width:380px;
+	margin:10px;
+	border:5px solid #A7DBD8;
+}
+
+img.tile:hover {
+	border:5px solid #002C5E;
+}
+
+#main {
+	width:840px;
+	float:right;
+	padding:30px;
+	background-color:#FFF;
+}
+
+.page {
+	display:none;
+}
+
+.page:target {
+	display:block;
+}
+
+.page#home {
+	display:block;
+}
+
+select {
+	font-size:12pt;
+	font-family:'Crimson Text',serif;
+	width:100%;
+}
+
+select:focus {
+	border:3px solid #002C5E;
+	outline:none;
+}
+
+#sidebar {
+	width:255px;
+	float:left;
+	padding:15px;
+	background-color:#FFF;
+	position:fixed;
+}
+
+table.appointment td {
+	padding:0px 20px 15px 0px;
+}
+
+table#prices {
+	border:3px solid black;
+	border-collapse:collapse;
+}
+
+table#prices tr {
+	border:2px solid black;
+}
+
+table#prices tr#headerrow {
+	font-weight:bold;
+}
+
+ul#navigation {
+	list-style-type:none;
+}
+
+ul#navigation li {
+	width:255px;
+	margin:0px 0px 10px -55px;
+	padding:15px;
+	background-color:#002C5E;
+	text-align:center;
+	font-family:'Spectral SC',serif;
+	font-size:14pt;
+}
+
+ul#navigation li:hover {
+	color:#000;
+	background-color:#A7DBD8;
+}
+
+ul#navigation a {
+	color:#FFF;
+	font-weight:600;
+	text-decoration:none;
+}
